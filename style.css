@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  background: white;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 20px;
+  border-radius: 20px;
+  background-color: #007bff;
+  width: 50%;
+  height: 100vh;
+}
+.hero-section .sub-heading {
+  margin-top: 0;
+  color: white;
+}
+.hero-section img {
+  width: 400px;
+  height: 300px;
+  object-fit: c;
+  border-radius: 10px;
+}
+h2 {
+  margin: 0;
+}
+.logo {
+  font-size: 40px;
+}
+.sub-heading {
+  font-size: 14px;
+  margin-top: 10px;
+  color: rgb(161, 161, 161);
+}
+.btns {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.btn-primary {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background: #0056b3;
+}
+.btn-secondary {
+  background: white;
+  border: 1px solid rgb(236, 233, 233);
+  color: rgb(104, 102, 102);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-secondary:hover {
+  background: rgb(236, 233, 233);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+.form-control {
+  padding: 10px;
+  border: 1px solid rgb(236, 233, 233);
+  border-radius: 5px;
+  width: 360px;
+}
+.input-group {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+label {
+  font-size: 14px;
+  color: rgb(161, 161, 161);
+}
+.mt {
+  margin-top: 20px;
+}
+.footer-group {
+  margin-top: 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+}
+.footer-group span {
+  color: rgb(161, 161, 161);
+}
+.footer-group a {
+  color: #007bff;
+  text-decoration: none;
+}
+@media (max-width: 953px) {
+  .hero-section {
+    display: none;
+  }
+}
